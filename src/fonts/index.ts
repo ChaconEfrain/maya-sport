@@ -23,6 +23,6 @@ export const hatton = localFont({
 
 export const inter = Inter({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700", "800", "900"],
+  weight: ["200", "300", "400", "500", "700", "800", "900"],
   display: "swap",
 });
