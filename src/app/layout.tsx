@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import "./globals.css";
-import { inter } from "@/fonts";
+import { ttCommons } from "@/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#ebebeb]`}>
+      <body className={`${ttCommons.className} bg-[#ebebeb]`}>
         <Nav />
         {children}
       </body>

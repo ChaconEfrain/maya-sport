@@ -2,7 +2,7 @@ import { hatton } from "@/fonts";
 
 export default function Nav() {
   return (
-    <nav className="bg-white w-[1600px] flex justify-between items-center px-64 [&>span]:uppercase [&>span]:underline [&>span]:tracking-wider text-lg font-light h-[100px] absolute left-1/2 -translate-x-1/2">
+    <nav className="bg-white w-[1600px] flex justify-between items-center px-64 [&>span]:uppercase [&>span]:underline [&>span]:tracking-wider text-xl font-light h-[100px] absolute left-1/2 -translate-x-1/2">
       <span>Sobre mí</span>
       <span>Colecciones</span>
       <h1
