@@ -5,16 +5,19 @@ export default function Leotards() {
   return (
     <section>
       <LeotardsSection
-        images={BALLET_LEOTARDS.slice(0, BALLET_LEOTARDS.length / 3)}
+        products={BALLET_LEOTARDS.slice(0, BALLET_LEOTARDS.length / 3)}
+        section="1"
       />
       <LeotardsSection
-        images={BALLET_LEOTARDS.slice(
+        products={BALLET_LEOTARDS.slice(
           BALLET_LEOTARDS.length / 3,
           (BALLET_LEOTARDS.length / 3) * 2
         )}
+        section="2"
       />
       <LeotardsSection
-        images={BALLET_LEOTARDS.slice((BALLET_LEOTARDS.length / 3) * 2)}
+        products={BALLET_LEOTARDS.slice((BALLET_LEOTARDS.length / 3) * 2)}
+        section="3"
       />
     </section>
   );

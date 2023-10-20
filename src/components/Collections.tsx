@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Collections() {
   return (
-    <section className="h-screen">
+    <section id="colecciones" className="h-screen">
       <header>
         <h2
           className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center py-12`}
@@ -13,7 +13,7 @@ export default function Collections() {
       </header>
       <div className="max-w-[1600px] bg-white mx-auto flex justify-center gap-36 py-14">
         <div className="w-[30%] flex flex-col items-center gap-5 text-xl">
-          <a href="#" className="flex flex-col gap-5">
+          <a href="#ballet-1" className="flex flex-col gap-5">
             <Image
               src="/img/catalog-ballet.jpeg"
               alt="Bailarina de ballet"

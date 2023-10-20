@@ -1,13 +1,14 @@
-import { ReactNode } from "react";
+import { HTMLAttributes, ReactNode } from "react";
 
-export default function Container({
-  className,
-  children,
-}: {
-  className: string;
+interface Props extends HTMLAttributes<HTMLDivElement> {
+  className?: string;
   children: ReactNode;
-}) {
+}
+
+export default function Container({ className, children, id }: Props) {
   return (
-    <div className={`max-w-[1400px] mx-auto ${className}`}>{children}</div>
+    <div id={id} className={`max-w-[1400px] mx-auto ${className}`}>
+      {children}
+    </div>
   );
 }
