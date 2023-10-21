@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="bg-white h-screen px-28 py-24">
+    <section id="sobre-mi" className="bg-white h-screen px-28 py-24">
       <div className="grid grid-cols-2 justify-items-center items-center h-full">
         <Image
           src="/img/about.webp"

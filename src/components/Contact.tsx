@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <section className="bg-[#969696] h-screen relative flex justify-center items-center">
+    <section
+      id="contacto"
+      className="bg-[#969696] h-screen relative flex justify-center items-center"
+    >
       <div
         className={`z-10 flex flex-col items-center gap-4 [&>div]:flex [&>div]:flex-col [&>div]:items-center [&>div]:gap-2 text-3xl font-extralight`}
       >
