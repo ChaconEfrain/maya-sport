@@ -1,28 +1,29 @@
-import Image from "next/image";
+import React from "react";
 import Container from "./Container";
-import { Product } from "@/types";
 import { hatton } from "@/fonts";
+import { Product } from "@/types";
+import Image from "next/image";
 
 interface Props {
   products: Product[];
   section: string;
 }
 
-export default function GlovesSection({ products, section }: Props) {
+export default function MouthGuardsSection({ products, section }: Props) {
   return (
     <Container
       id={`football-${section}`}
-      className="min-h-screen grid grid-cols-3 justify-items-center"
+      className="h-screen grid grid-cols-4 gap-x-2 justify-items-center items-center"
     >
       <h2
-        className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center pt-8 col-span-full`}
+        className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center pt-8 col-span-full self-start`}
       >
-        Guantes
+        Bucales
       </h2>
       {products.map((product) => (
         <article
           key={product.name}
-          className="w-[250px] h-[350px] flex flex-col gap-4 items-center"
+          className="w-auto h-[350px] flex flex-col gap-4 items-center"
         >
           <Image
             src={product.image}
@@ -49,7 +50,7 @@ export default function GlovesSection({ products, section }: Props) {
       </a>
       <a
         href={`#football-${Number(section) + 1}`}
-        className={`col-start-3 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline`}
+        className={`col-start-4 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline`}
       >
         siguiente
       </a>

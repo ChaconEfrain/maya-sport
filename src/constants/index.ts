@@ -206,12 +206,12 @@ export const FOOTBALL_MOUTH_GUARD: Product[] = [
   {
     name: "Bucal b spiner",
     price: "$520",
-    image: "/img/football/bucal-b-spinner.webp",
+    image: "/img/football/bucal-b.webp",
   },
   {
-    name: "Bucal brillos",
-    price: "$460",
-    image: "/img/football/bucal-brillos.webp",
+    name: "Bucal letras",
+    price: "$420",
+    image: "/img/football/bucal-letras.webp",
   },
   {
     name: "Bucal letras rosas",
@@ -229,9 +229,9 @@ export const FOOTBALL_MOUTH_GUARD: Product[] = [
     image: "/img/football/bucal-placas.webp",
   },
   {
-    name: "Bucal letras",
-    price: "$420",
-    image: "/img/football/bucal-letras.webp",
+    name: "Bucal chupón 3D",
+    price: "$570",
+    image: "/img/football/bucal-chupon-3d.webp",
   },
   {
     name: "Bucal chupón a/r",
@@ -265,5 +265,83 @@ export const FOOTBALL_OTHER: Product[] = [
     name: "Toalla negra",
     price: "$320",
     image: "/img/football/toalla-negra.webp",
+  },
+];
+
+export const FOOTBALL_CLEATS: Product[] = [
+  {
+    name: "Adidas adizero",
+    price: "$1650",
+    image: "/img/football/tachones1.webp",
+  },
+  {
+    name: "Under armour C1N",
+    price: "$1650",
+    image: "/img/football/tachones2.webp",
+  },
+  {
+    name: "Adidas freak",
+    price: "$1200",
+    image: "/img/football/tachones3.webp",
+  },
+  {
+    name: "Adidas freak 22",
+    price: "$2400",
+    image: "/img/football/tachones4.webp",
+  },
+  {
+    name: "Adidas adizero",
+    price: "$2800",
+    image: "/img/football/tachones5.webp",
+  },
+  {
+    name: "Adidas freak spark",
+    price: "$2500",
+    image: "/img/football/tachones6.webp",
+  },
+  {
+    name: "Under armour clone",
+    price: "$2800",
+    image: "/img/football/tachones7.webp",
+  },
+  {
+    name: "Adidas",
+    price: "$1200",
+    image: "/img/football/tachones8.webp",
+  },
+  {
+    name: "Under armour clone spotlight",
+    price: "$2500",
+    image: "/img/football/tachones9.webp",
+  },
+  {
+    name: "Adidas freak 22 The Simpsons",
+    price: "$2400",
+    image: "/img/football/tachones10.webp",
+  },
+  {
+    name: "Nike alpha menace elite 2",
+    price: "$3300",
+    image: "/img/football/tachones11.webp",
+  },
+  {
+    name: "Nike alpha huarache elite 8",
+    price: "$2800",
+    image: "/img/football/tachones12.webp",
+  },
+  {
+    name: "---------",
+    price: "$2400",
+    image: "/img/football/tachones13.webp",
+  },
+  {
+    name: "---------",
+    price: "$1800",
+    image: "/img/football/tachones14.webp",
+  },
+  {
+    name: "Adidas freak 22",
+    price: "$2400",
+    image: "/img/football/tachones15.webp",
   },
 ];
