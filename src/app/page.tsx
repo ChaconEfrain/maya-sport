@@ -2,6 +2,7 @@ import About from "@/components/About";
 import BackAndTowels from "@/components/BackAndTowels";
 import Cleats from "@/components/Cleats";
 import Collections from "@/components/Collections";
+import Contact from "@/components/Contact";
 import Gloves from "@/components/Gloves";
 import Hero from "@/components/Hero";
 import Leotards from "@/components/Leotards";
@@ -22,6 +23,7 @@ export default function Home() {
       <MouthGuards />
       <BackAndTowels />
       <Cleats />
+      <Contact />
     </main>
   );
 }
