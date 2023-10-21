@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Collections from "@/components/Collections";
+import Gloves from "@/components/Gloves";
 import Hero from "@/components/Hero";
 import Leotards from "@/components/Leotards";
 import Pants from "@/components/Pants";
@@ -14,6 +15,7 @@ export default function Home() {
       <Leotards />
       <Skirts />
       <Pants />
+      <Gloves />
     </main>
   );
 }

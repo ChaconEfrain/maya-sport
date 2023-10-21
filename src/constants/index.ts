@@ -141,11 +141,6 @@ export const FOOTBALL_GLOVES: Product[] = [
     image: "/img/football/grip-boost-verde.webp",
   },
   {
-    name: "Grip boost verde",
-    price: "$960",
-    image: "/img/football/grip-boost-verde.webp",
-  },
-  {
     name: "Grip boost rojo",
     price: "$960",
     image: "/img/football/grip-boost-rojo-1.webp",
@@ -193,7 +188,7 @@ export const FOOTBALL_GLOVES: Product[] = [
   {
     name: "Jordan fly",
     price: "$1650",
-    image: "/img/football/battle-cloaked-blanco.webp",
+    image: "/img/football/jordan-fly.webp",
   },
   {
     name: "Adidas adizero naranjas",

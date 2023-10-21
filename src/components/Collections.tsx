@@ -33,7 +33,7 @@ export default function Collections() {
           </p>
         </div>
         <div className="w-[30%] flex flex-col items-center gap-5 text-xl">
-          <a href="#" className="flex flex-col gap-5">
+          <a href="#football-1" className="flex flex-col gap-5">
             <Image
               src="/img/catalog-football.jpeg"
               alt="Jugador de football americano"
