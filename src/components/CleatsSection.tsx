@@ -22,7 +22,7 @@ export default function CleatsSection({ products, section }: Props) {
       {products.map((product) => (
         <article
           key={product.name}
-          className="w-[250px] h-[250px] flex flex-col gap-4 items-center"
+          className="w-[250px] h-[275px] flex flex-col gap-4 items-center"
         >
           <Image
             src={product.image}

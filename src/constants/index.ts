@@ -330,12 +330,12 @@ export const FOOTBALL_CLEATS: Product[] = [
     image: "/img/football/tachones12.webp",
   },
   {
-    name: "---------",
+    name: "Adidas adizero edición especial",
     price: "$2400",
     image: "/img/football/tachones13.webp",
   },
   {
-    name: "---------",
+    name: "Under armour",
     price: "$1800",
     image: "/img/football/tachones14.webp",
   },

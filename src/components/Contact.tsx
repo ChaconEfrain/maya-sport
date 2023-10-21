@@ -57,9 +57,9 @@ export default function Contact() {
       <Image
         src="/img/contact.webp"
         alt="Arch shaped image"
-        width={800}
-        height={800}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+        width={1100}
+        height={1100}
+        className="absolute left-1/2 top-1/2 -translate-x-[48%] -translate-y-1/2"
       />
     </section>
   );
