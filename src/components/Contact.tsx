@@ -7,6 +7,20 @@ export default function Contact() {
       id="contacto"
       className="bg-[#969696] h-screen relative flex justify-center items-center"
     >
+      <Image
+        src="/img/decoracion/lazo-3.svg"
+        alt="Lazo decorativo"
+        width={50}
+        height={50}
+        className="absolute z-10 -rotate-90 left-[450px] top-28"
+      />
+      <Image
+        src="/img/decoracion/estrella-blanca.webp"
+        alt="Estrella blanca"
+        width={75}
+        height={75}
+        className="absolute z-10 -rotate-90 right-[380px] top-28"
+      />
       <div
         className={`z-10 flex flex-col items-center gap-4 [&>div]:flex [&>div]:flex-col [&>div]:items-center [&>div]:gap-2 text-3xl font-extralight`}
       >

@@ -3,7 +3,21 @@ import Image from "next/image";
 
 export default function Collections() {
   return (
-    <section id="colecciones" className="h-screen">
+    <section id="colecciones" className="h-screen relative">
+      <Image
+        src="/img/decoracion/sol.webp"
+        alt="Sol decorativo"
+        width={220}
+        height={220}
+        className="absolute left-44 top-24"
+      />
+      <Image
+        src="/img/decoracion/sol.webp"
+        alt="Sol decorativo"
+        width={220}
+        height={220}
+        className="absolute right-24 bottom-40"
+      />
       <header>
         <h2
           className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center py-12`}

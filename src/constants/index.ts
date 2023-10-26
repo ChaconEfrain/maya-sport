@@ -97,7 +97,7 @@ export const BALLET_SKIRTS: Product[] = [
   {
     name: "Falda azul",
     price: "$150",
-    image: "/img/ballet/falda-azul.png",
+    image: "/img/ballet/falda-azul.webp",
   },
   {
     name: "Falda negra",
@@ -187,7 +187,7 @@ export const FOOTBALL_GLOVES: Product[] = [
   },
   {
     name: "Jordan fly",
-    price: "$1650",
+    price: "$1550",
     image: "/img/football/jordan-fly.webp",
   },
   {
@@ -336,7 +336,7 @@ export const FOOTBALL_CLEATS: Product[] = [
   },
   {
     name: "Under armour",
-    price: "$1800",
+    price: "$1700",
     image: "/img/football/tachones14.webp",
   },
   {

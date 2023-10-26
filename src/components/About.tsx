@@ -3,7 +3,21 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="sobre-mi" className="bg-white h-screen px-28 py-24">
+    <section id="sobre-mi" className="bg-white h-screen px-28 py-24 relative">
+      <Image
+        src="/img/decoracion/circulos.webp"
+        alt="Círculos decorativos"
+        width={160}
+        height={160}
+        className="absolute right-24 top-14"
+      />
+      <Image
+        src="/img/decoracion/lazo-3.svg"
+        alt="Lazo decorativo"
+        width={50}
+        height={50}
+        className="absolute rotate-90 left-72 -bottom-20"
+      />
       <div className="grid grid-cols-2 justify-items-center items-center h-full">
         <Image
           src="/img/about.webp"

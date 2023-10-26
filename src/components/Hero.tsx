@@ -3,8 +3,29 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-[#e0e1e5] h-screen flex justify-center items-center">
-      <div className="">
+    <section className="bg-[#e0e1e5] h-screen flex justify-center items-center relative">
+      <Image
+        src="/img/decoracion/lazo-1.svg"
+        alt="Lazo decorativo"
+        width={500}
+        height={500}
+        className="absolute h-[450px] rotate-[200deg] z-10 top-6 left-0"
+      />
+      <Image
+        src="/img/decoracion/lazo-2.svg"
+        alt="Lazo decorativo"
+        width={500}
+        height={500}
+        className="absolute h-[500px] -right-16 top-64"
+      />
+      <Image
+        src="/img/decoracion/estrella-gris.webp"
+        alt="Estrella gris"
+        width={75}
+        height={75}
+        className="absolute right-36 top-28"
+      />
+      <div>
         <Image
           src="/img/hero.webp"
           alt="Mayasport logo"
