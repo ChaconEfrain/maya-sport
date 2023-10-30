@@ -13,7 +13,7 @@ export default function Collections() {
       </header>
       <div className="bg-white mx-auto flex flex-col md:flex-row justify-center gap-10 md:gap-20 xl:gap-36 py-14">
         <div className="xl:w-[30%] md:w-[40%] px-2 md:px-0 flex flex-col items-center gap-5 text-xl">
-          <a href="#ballet-1" className="flex flex-col gap-5 relative">
+          <a href="#ballet" className="flex flex-col gap-5 relative">
             <Image
               src="/img/decoracion/sol.webp"
               alt="Sol decorativo"
@@ -40,7 +40,7 @@ export default function Collections() {
           </p>
         </div>
         <div className="xl:w-[30%] md:w-[40%] px-2 md:px-0 flex flex-col items-center gap-5 text-xl">
-          <a href="#football-1" className="flex flex-col gap-5 relative">
+          <a href="#football" className="flex flex-col gap-5 relative">
             <Image
               src="/img/decoracion/sol.webp"
               alt="Sol decorativo"

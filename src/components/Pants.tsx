@@ -2,11 +2,12 @@ import Image from "next/image";
 import Container from "./Container";
 import { BALLET_PANTS } from "@/constants";
 import { hatton } from "@/fonts";
+import Swiper from "./Swiper";
 
 export default function Pants() {
   return (
     <section id="ballet-5">
-      <Container className="h-screen grid grid-cols-3 justify-items-center">
+      <Container className="h-screen hidden lg:grid grid-cols-3 justify-items-center">
         <h2
           className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center pt-8 col-span-full`}
         >
@@ -45,6 +46,11 @@ export default function Pants() {
           inicio
         </a>
       </Container>
+      <Swiper
+        className="lg:hidden"
+        products={BALLET_PANTS}
+        title="Pantalones"
+      />
     </section>
   );
 }

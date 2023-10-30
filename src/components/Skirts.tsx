@@ -2,11 +2,12 @@ import { hatton } from "@/fonts";
 import Container from "./Container";
 import { BALLET_SKIRTS } from "@/constants";
 import Image from "next/image";
+import Swiper from "./Swiper";
 
 export default function Skirts() {
   return (
     <section id="ballet-4">
-      <Container className="h-screen grid grid-cols-4 justify-items-center">
+      <Container className="h-screen lg:grid grid-cols-4 justify-items-center hidden">
         <h2
           className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center pt-8 col-span-full`}
         >
@@ -45,6 +46,7 @@ export default function Skirts() {
           siguiente
         </a>
       </Container>
+      <Swiper className="lg:hidden" products={BALLET_SKIRTS} title="Faldas" />
     </section>
   );
 }
