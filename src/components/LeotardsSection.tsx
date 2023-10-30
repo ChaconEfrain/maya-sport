@@ -5,17 +5,17 @@ import Image from "next/image";
 
 interface Props {
   products: Product[];
-  section: string;
+  section?: string;
 }
 
 export default function LeotardsSection({ products, section }: Props) {
   return (
     <Container
       id={`ballet-${section}`}
-      className="h-screen grid grid-cols-3 justify-items-center"
+      className="min-h-screen grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 justify-items-center"
     >
       <h2
-        className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center pt-8 col-span-full`}
+        className={`${hatton.className} tracking-wider uppercase text-4xl sm:text-5xl leading-snug text-center pt-8 col-span-full`}
       >
         Leotardos
       </h2>
@@ -43,13 +43,13 @@ export default function LeotardsSection({ products, section }: Props) {
         href={`${
           section === "1" ? "#colecciones" : `#ballet-${Number(section) - 1}`
         }`}
-        className={`justify-self-start self-end pb-4 ${hatton.className} text-3xl font-extralight underline`}
+        className={`justify-self-start self-end pb-4 ${hatton.className} text-3xl font-extralight underline hidden md:inline-block`}
       >
         anterior
       </a>
       <a
         href={`#ballet-${Number(section) + 1}`}
-        className={`col-start-3 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline`}
+        className={`lg:col-start-3 md:col-start-2 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline hidden md:inline-block`}
       >
         siguiente
       </a>

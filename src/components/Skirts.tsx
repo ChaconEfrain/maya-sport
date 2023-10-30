@@ -7,9 +7,9 @@ import Swiper from "./Swiper";
 export default function Skirts() {
   return (
     <section id="ballet-4">
-      <Container className="h-screen lg:grid grid-cols-4 justify-items-center hidden">
+      <Container className="min-h-screen grid lg:grid-cols-4 md:grid-cols-2 gap-y-8 justify-items-center">
         <h2
-          className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center pt-8 col-span-full`}
+          className={`${hatton.className} tracking-wider uppercase text-4xl sm:text-5xl leading-snug text-center pt-8 col-span-full`}
         >
           Faldas
         </h2>
@@ -35,18 +35,18 @@ export default function Skirts() {
         ))}
         <a
           href="#ballet-3"
-          className={`justify-self-start self-end pb-4 ${hatton.className} text-3xl font-extralight underline`}
+          className={`col-start-1 justify-self-start self-end pb-4 ${hatton.className} text-3xl font-extralight underline hidden md:inline-block`}
         >
           anterior
         </a>
         <a
           href="#ballet-5"
-          className={`col-start-4 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline`}
+          className={`lg:col-start-4 col-start-2 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline hidden md:inline-block`}
         >
           siguiente
         </a>
       </Container>
-      <Swiper className="lg:hidden" products={BALLET_SKIRTS} title="Faldas" />
+      {/* <Swiper className="lg:hidden" products={BALLET_SKIRTS} title="Faldas" /> */}
     </section>
   );
 }

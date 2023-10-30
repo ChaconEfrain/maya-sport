@@ -7,7 +7,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
 
 export default function Container({ className, children, id }: Props) {
   return (
-    <div id={id} className={`max-w-[1400px] mx-auto ${className}`}>
+    <div id={id} className={`max-w-[1400px] mx-auto px-2 ${className}`}>
       {children}
     </div>
   );

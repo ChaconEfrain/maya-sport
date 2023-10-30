@@ -7,10 +7,10 @@ export default function BackAndTowels() {
   return (
     <Container
       id="football-5"
-      className="h-screen grid grid-cols-4 gap-x-2 justify-items-center items-center"
+      className="min-h-screen grid lg:grid-cols-4 md:grid-cols-2 gap-x-2 gap-y-8 justify-items-center items-center"
     >
       <h2
-        className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center pt-8 col-span-full self-start`}
+        className={`${hatton.className} tracking-wider uppercase text-4xl sm:text-5xl leading-snug text-center pt-8 col-span-full self-start`}
       >
         Backs y toallas
       </h2>
@@ -36,13 +36,13 @@ export default function BackAndTowels() {
       ))}
       <a
         href="#football-4"
-        className={`justify-self-start self-end pb-4 ${hatton.className} text-3xl font-extralight underline col-start-1`}
+        className={`justify-self-start self-end pb-4 ${hatton.className} text-3xl font-extralight underline col-start-1 hidden md:inline-block`}
       >
         anterior
       </a>
       <a
         href="#football-6"
-        className={`col-start-4 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline`}
+        className={`lg:col-start-4 col-start-2 justify-self-end self-end pb-4 ${hatton.className} text-3xl font-extralight underline hidden md:inline-block`}
       >
         siguiente
       </a>
