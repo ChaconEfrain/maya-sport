@@ -46,7 +46,7 @@ export default function Collections() {
               alt="Sol decorativo"
               width={220}
               height={220}
-              className="absolute -right-1/3 bottom-0 z-10 hidden sm:block"
+              className="absolute -right-1/3 bottom-0 z-10 hidden xl:block"
             />
             <Image
               src="/img/catalog-football.jpeg"
