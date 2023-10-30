@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import "./globals.css";
 import { ttCommons } from "@/fonts";
+import NavMobileProvider from "@/context/NavMobileProvider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,11 +15,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${ttCommons.className} bg-[#ebebeb]`}>
-        <Nav />
-        {children}
-      </body>
-    </html>
+    <NavMobileProvider>
+      <html lang="en">
+        <body className={`${ttCommons.className} relative bg-[#ebebeb]`}>
+          <Nav />
+          {children}
+        </body>
+      </html>
+    </NavMobileProvider>
   );
 }

@@ -9,21 +9,21 @@ export default function Hero() {
         alt="Lazo decorativo"
         width={500}
         height={500}
-        className="absolute h-[450px] rotate-[200deg] z-10 top-6 left-0"
+        className="absolute h-[450px] rotate-[200deg] z-10 top-6 left-0 hidden xl:block"
       />
       <Image
         src="/img/decoracion/lazo-2.svg"
         alt="Lazo decorativo"
         width={500}
         height={500}
-        className="absolute h-[500px] -right-16 top-64"
+        className="absolute h-[500px] -right-16 top-64 hidden xl:block"
       />
       <Image
         src="/img/decoracion/estrella-gris.webp"
         alt="Estrella gris"
         width={75}
         height={75}
-        className="absolute right-36 top-28"
+        className="absolute right-36 top-28 hidden xl:block"
       />
       <div>
         <Image

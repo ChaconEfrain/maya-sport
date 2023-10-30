@@ -63,7 +63,7 @@ export default function Contact() {
           </a>
         </div>
       </div>
-      <footer className="flex justify-end items-center text-3xl bg-[#ebebeb] w-[1600px] h-[80px] absolute bottom-0 left-1/2 -translate-x-1/2">
+      <footer className="flex justify-end items-center text-3xl bg-[#ebebeb] max-w-[1600px] w-full h-[80px] absolute bottom-0 left-1/2 -translate-x-1/2">
         <a href="#" className="px-12 underline">
           Inicio
         </a>
