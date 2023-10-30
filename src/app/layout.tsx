@@ -17,7 +17,9 @@ export default function RootLayout({
   return (
     <NavMobileProvider>
       <html lang="en">
-        <body className={`${ttCommons.className} relative bg-[#ebebeb]`}>
+        <body
+          className={`${ttCommons.className} relative overflow-x-hidden bg-[#ebebeb]`}
+        >
           <Nav />
           {children}
         </body>

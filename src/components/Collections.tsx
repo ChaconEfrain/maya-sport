@@ -3,31 +3,24 @@ import Image from "next/image";
 
 export default function Collections() {
   return (
-    <section id="colecciones" className="h-screen relative">
-      <Image
-        src="/img/decoracion/sol.webp"
-        alt="Sol decorativo"
-        width={220}
-        height={220}
-        className="absolute left-44 top-24"
-      />
-      <Image
-        src="/img/decoracion/sol.webp"
-        alt="Sol decorativo"
-        width={220}
-        height={220}
-        className="absolute right-24 bottom-40"
-      />
+    <section id="colecciones" className="min-h-screen relative">
       <header>
         <h2
-          className={`${hatton.className} tracking-wider uppercase text-5xl leading-snug text-center py-12`}
+          className={`${hatton.className} tracking-wider uppercase text-4xl md:text-5xl leading-snug text-center py-12`}
         >
           Colecciones
         </h2>
       </header>
-      <div className="max-w-[1600px] bg-white mx-auto flex justify-center gap-36 py-14">
-        <div className="w-[30%] flex flex-col items-center gap-5 text-xl">
-          <a href="#ballet-1" className="flex flex-col gap-5">
+      <div className="bg-white mx-auto flex flex-col md:flex-row justify-center gap-10 md:gap-20 xl:gap-36 py-14">
+        <div className="xl:w-[30%] md:w-[40%] px-2 md:px-0 flex flex-col items-center gap-5 text-xl">
+          <a href="#ballet-1" className="flex flex-col gap-5 relative">
+            <Image
+              src="/img/decoracion/sol.webp"
+              alt="Sol decorativo"
+              width={220}
+              height={220}
+              className="absolute -left-1/3 -top-1/4 z-10"
+            />
             <Image
               src="/img/catalog-ballet.jpeg"
               alt="Bailarina de ballet"
@@ -46,8 +39,15 @@ export default function Collections() {
             seleccionada colección diseñada para destacar en el mundo del ballet
           </p>
         </div>
-        <div className="w-[30%] flex flex-col items-center gap-5 text-xl">
-          <a href="#football-1" className="flex flex-col gap-5">
+        <div className="xl:w-[30%] md:w-[40%] px-2 md:px-0 flex flex-col items-center gap-5 text-xl">
+          <a href="#football-1" className="flex flex-col gap-5 relative">
+            <Image
+              src="/img/decoracion/sol.webp"
+              alt="Sol decorativo"
+              width={220}
+              height={220}
+              className="absolute -right-1/3 bottom-0 z-10"
+            />
             <Image
               src="/img/catalog-football.jpeg"
               alt="Jugador de football americano"
