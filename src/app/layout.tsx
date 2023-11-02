@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "Salud",
     "Sports",
   ],
+  icons: {
+    icon: "/icon.svg",
+  },
   openGraph: {
     type: "website",
     url: "https://mayasport.vercel.app/",
